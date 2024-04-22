@@ -2,6 +2,7 @@ const express = require('express');
 const twilio = require('twilio');
 
 const app = express();
+app.use(express.json()); // Ajoutez ce middleware pour le traitement des requêtes JSON
 
 // Configuration Twilio
 const accountSid = 'AC9ce407a4a82665247f9724d5595c3ed8';
