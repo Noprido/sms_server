@@ -5,8 +5,8 @@ const app = express();
 app.use(express.json()); // Ajoutez ce middleware pour le traitement des requêtes JSON
 
 // Configuration Twilio
-const accountSid = 'AC9ce407a4a82665247f9724d5595c3ed8';
-const authToken = 'ac89c6d988c14cd3e5939f0428380dae';
+const accountSid = 'AC9f3b5db8cf5cf93094a88f1f50af5ed8';
+const authToken = '543ed1a8ea846e1f7a3b4b3ef3bf3e5d';
 const twilioClient = twilio(accountSid, authToken);
 
 // Route pour l'envoi de SMS
